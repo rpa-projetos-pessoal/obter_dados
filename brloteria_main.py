@@ -89,7 +89,6 @@ def obter_dados() -> [None, list]:
         except Exception as e:
             print(f"Erro ao acessar a API: {e}")
 
-# para conectar y obter as respostas tem que entrar e fazer o registro aqui-> https://brloteria.com/#/register?invitationCode=5838824772
 
 obter_dados()
 
